@@ -12,7 +12,6 @@ public class MiddleAnalyzer {
         int b = sc.nextInt();
         System.out.println("Enter the 3rd number : ");
         int c = sc.nextInt();
-
         int max = (a > b)&& (a > c) ? a : b > c ? b : c;
         int min = (a < b) && (a < c) ? a : b < c ? b : c;
 
